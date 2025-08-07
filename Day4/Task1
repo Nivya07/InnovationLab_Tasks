@@ -1,0 +1,19 @@
+let num = Math.random();
+console.log(num);
+
+let a = Math.floor(4.7);
+let b = Math.ceil(6.1);
+let c = Math.min(10, 20, 5, 40);
+let d = Math.max(10, 20, 5, 40);
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+
+let text = "Hello World";
+console.log(text.toUpperCase());
+console.log(text.toLowerCase());
+console.log(text.substring(0, 5));
+console.log(text.includes("World"));
+console.log(text.replace("World", "JS"));
