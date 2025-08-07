@@ -1,0 +1,18 @@
+let squares = [1, 4, 9, 16, 25];
+
+squares.forEach(function (value) {
+  console.log("forEach:", value);
+});
+
+let doubled = squares.map(function (value) {
+  return value * 2;
+});
+console.log("Doubled:", doubled);
+
+for (let i in squares) {
+  console.log("for-in index:", i);
+}
+
+for (let value of squares) {
+  console.log("for-of value:", value);
+}
