@@ -1,0 +1,20 @@
+let person = {
+  name: "Ravi",
+  age: 25,
+  address: {
+    city: "Chennai",
+    zip: 600001
+  }
+};
+
+let { name, age } = person;
+console.log(name, age);
+
+let { city = "N/A", zip } = person.address;
+console.log(city, zip);
+
+let user = { id: 1, ...person };
+console.log(user);
+
+let updated = { ...person, age: 30 };
+console.log(updated);
