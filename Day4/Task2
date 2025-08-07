@@ -1,0 +1,14 @@
+let numbers = [10, 20, 30];
+let fruits = ["apple", "banana", "cherry"];
+
+numbers[1] = 25;
+fruits.push("mango");
+fruits.pop();
+numbers.unshift(5);
+numbers.shift();
+
+console.log("Numbers:", numbers);
+console.log("Fruits:", fruits);
+
+console.log("Size of numbers:", numbers.length);
+console.log("Size of fruits:", fruits.length);
