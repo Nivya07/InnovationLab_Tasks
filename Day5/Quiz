@@ -1,0 +1,27 @@
+Q1: What does filter() return?
+Answer: A new array containing elements that pass the test.
+
+Q2: How does reduce() work?
+Answer: It reduces an array to a single value by applying a function.
+
+Q3: Difference between slice() and splice()
+Answer: slice() – copies part of an array without changing it.
+
+splice() – changes the array by adding, removing, or replacing elements.
+
+
+
+
+
+Q4: What is the spread operator used for?
+Answer: To clone, merge arrays/objects, or expand values.
+
+
+Q5: How to define a method inside an object?
+
+const obj = { greet() { console.log("Hello"); } };
+
+
+Q6: What does destructuring do?
+Answer: Destructuring means quickly taking values from arrays or objects and putting them into variables.
+
